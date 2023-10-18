@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    background-color: #E4E4E4;
+    font-family: 'Source Serif Pro';
+    text-align: center;
+    color: #777777;
+}
+
+time {
+    display: flex;
+}
+
+.images {
+    border: 10px solid #606060";
+}
+
+#authortext {
+    text-indent: 25%;
+}
+
+header {
+    text-align: center;
+}
+
+#general {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#dinocard {
+    background-color: #969696;
+    color: #E4E4E4;
+    width: 20%;
+    text-align: start;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#dinocard > figure {
+    width: 100%;
+    height: 40%;
+}
+
+#dinocard > section > h2 {
+    background-color: #BFBFBF;
+    color: #FFFFFF;
+    font-family: 'Crimson Text';
+    text-align: center;
+    font-size: 1.5vw;
+    letter-spacing: .2em;
+    font-weight: lighter;
+}
+
+#dinocard > section > ul {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1vw;
+}
+
+
+
+#generaltext {
+    font-size: 16px;
+    margin: 1%;
+    line-height: 2;
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 35%;
+}
+
+#generaltext > p {
+    text-align: start;
+    margin-bottom: 5%;
+}
+
+#images {
+    flex-basis: 20%;
+}
+
+#fossils {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#fossils > header {
+    flex-basis: 100%;
+}
+
+#fossil-displays {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#fossil-displays > figure {
+    flex-basis: 30%;
+}
+
+#discovery {
+    margin-top: 4%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#discovery > section {
+    flex-basis: 50%;
+    line-height: 2;
+    text-align: start;
+}
+
+#discovery > figure {
+    flex-basis: 25%;
+}
+
+#prednprey {
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#prednprey > section {
+    flex-basis: 50%;
+    line-height: 2;
+    text-align: start;
+}
+
+#prednprey > figure {
+    flex-basis: 25%;
+}
+
+#fossilhistory {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#fossilhistory > section {
+    line-height: 2;
+    text-align: start;
+    flex-basis: 35%;
+}
+
+#fossilhistory > figure {
+    flex-basis: 20%;
+}
+
+#breedlifecycle {
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#breedlifecycle > section {
+    line-height: 2;
+    text-align: start;
+    margin-top: 1%;
+    margin-left: 5%;
+    flex-basis: 50%;
+}
+
+#breedlifecycle > figure {
+    flex-basis: 25%;
+}
+
+#breedlifecycle > h1 {
+    flex-basis: 100%;
+}
+
+#communication {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#communication > section {
+    margin: 5%;
+    flex-basis: 40%;
+    line-height: 2;
+    text-align: start;
+}
+
+#communication > figure {
+    flex-basis: 25%;
+}
+
+#related {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#related > section {
+    margin: 5%;
+    flex-basis: 40%;
+    line-height: 2;
+    text-align: start;
+}
+
+#related > figure {
+    flex-basis: 20%;
+}
+
+#sources {
+    margin-top: 5%;
+    background-color:#969696;
+    color:aliceblue;
+    display:flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start
+}
+
+#sources > h1 {
+    margin: 1%;
+    flex-basis: 100%;
+}
+
+#sources > p {
+    margin: 1%;
+    flex-basis: 25%;
+}
